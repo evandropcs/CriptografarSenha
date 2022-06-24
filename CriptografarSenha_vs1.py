@@ -5,7 +5,7 @@ def aleatoria(qtd):
     aleatorias = (random.sample(string.ascii_letters, qtd))
     return aleatorias
 
-# Criptografa o texto escolhido
+
 def criptografar(senha: str):
     lista = list(senha)
     cripto = []
@@ -17,20 +17,20 @@ def criptografar(senha: str):
         cripto += aleatorias
     return cripto
 
-# Decriptografa o texto
-def descriptografar(cripto):
+
+def decriptografar(cripto):
     senha = cripto[4::9]
     senha = ''.join(senha)
     return senha
 
-# Recebe o texto do usuário
-palavra = input('Escolha uma palavra para ser criptografada: ')
 
-# Chama as funções
-cripto = criptografar(palavra)
-descripto = descriptografar(cripto)
+# Criptografa a senha 'T9x8v23NB@' e armazena o resultado na variavel senha_cripto.
+texto_cripto = criptografar('T9x8v23NB@')
 
-# Mostra na tela texto criptofrado e decriptografado
-print(f'A palavra criptografada é: {cripto}')
-print(f'A palavra criptografada é: {descripto}')
+# Mostra na tela a senha criptografada.
+print(texto_cripto)
+
+# Decriptografa 'ўу҂тҀмнјьъ' e mostra na tela a senha.
+print(decriptografar(texto_cripto))
+
 
