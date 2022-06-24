@@ -1,6 +1,6 @@
-# CriptografarTexto
+# CriptografarSenha
 
-CriptografarTexto_vs1:
+CriptografarSenha_vs1:
 
 #### CRIPTOGRAFIA
 
@@ -12,7 +12,7 @@ CriptografarTexto_vs1:
 1) Decriptografa através do fatiamento da lista cripto, e depois junta todos os caracteres. 
 
 
-CriptografarTexto_vs2:
+CriptografarSenha_vs2:
 
 #### CRIPTOGRAFIA
 
